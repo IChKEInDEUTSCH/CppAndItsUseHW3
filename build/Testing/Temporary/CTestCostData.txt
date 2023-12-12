@@ -1,0 +1,3 @@
+dbnodeOperatorGtest 6 0
+---
+dbnodeOperatorGtest

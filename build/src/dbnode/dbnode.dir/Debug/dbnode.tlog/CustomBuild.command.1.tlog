@@ -1,0 +1,10 @@
+^D:\DATASTRUCTURE\HW2\SRC\DBNODE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/dataStructure/HW2 -BD:/dataStructure/HW2/build --check-stamp-file D:/dataStructure/HW2/build/src/dbnode/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

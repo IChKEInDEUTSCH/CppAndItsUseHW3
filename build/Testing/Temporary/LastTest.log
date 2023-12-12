@@ -1,0 +1,50 @@
+Start testing: Dec 12 14:16 Taipei Standard Time
+----------------------------------------------------------
+1/1 Testing: dbnodeOperatorGtest
+1/1 Test: dbnodeOperatorGtest
+Command: "D:/dataStructure/HW2/build/tests/Debug/dbnodeOperatorTest.exe"
+Directory: D:/dataStructure/HW2/build/tests
+"dbnodeOperatorGtest" start time: Dec 12 14:16 Taipei Standard Time
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from nodeOperatorTests
+[ RUN      ] nodeOperatorTests.TestReverse
+D:\dataStructure\HW2\tests\dbnodeOperatorTest.cpp(33): error: Expected equality of these values:
+  expected
+    Which is: "C"
+  actual
+    Which is: "d"
+
+[  FAILED  ] nodeOperatorTests.TestReverse (0 ms)
+[ RUN      ] nodeOperatorTests.TestPushNew
+[       OK ] nodeOperatorTests.TestPushNew (0 ms)
+[ RUN      ] nodeOperatorTests.TestAppendNew
+[       OK ] nodeOperatorTests.TestAppendNew (0 ms)
+[ RUN      ] nodeOperatorTests.TestAppendNewTreverseFromRear
+[       OK ] nodeOperatorTests.TestAppendNewTreverseFromRear (0 ms)
+[ RUN      ] nodeOperatorTests.TestExtractMiddle
+[       OK ] nodeOperatorTests.TestExtractMiddle (0 ms)
+[ RUN      ] nodeOperatorTests.TestExtractHead
+[       OK ] nodeOperatorTests.TestExtractHead (0 ms)
+[ RUN      ] nodeOperatorTests.TestExtractRear
+[       OK ] nodeOperatorTests.TestExtractRear (0 ms)
+[----------] 7 tests from nodeOperatorTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] nodeOperatorTests.TestReverse
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Failed.
+"dbnodeOperatorGtest" end time: Dec 12 14:16 Taipei Standard Time
+"dbnodeOperatorGtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 12 14:16 Taipei Standard Time

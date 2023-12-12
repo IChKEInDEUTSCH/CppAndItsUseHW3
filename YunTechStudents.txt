@@ -1,0 +1,17 @@
+YunTech EE Department
+======================================
+Name		English	Math		
+---------------+-------+--------------
+Steve Jobs	50	60
+Tom Cruise	30	40
+Marie Jane	70	80
+Barrack Obama	46	77
+Robert Redford	22	33
+Bruce Lee	90	90
+Joe Biden	42	55
+**************************************
++ Oliver Hardy	90	80
++ Slim Pickens	88	82
+- Marie Jane	0	0
++ James Bond	88	82
+- Barrack Obama	0	0
